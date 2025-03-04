@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Job Interview ChatBox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="nav">
+    </div>
+    <div class="chat">
+    <div class="name">
+        <h1>AI/ML Job interview</h1>
+        <h2>ChatBot</h2>
+    </div>
+   <div class="line"></div> 
+  
+    <div class="messages">
+    </div>
+    <div class="input">
+        <input type="text" class="input_user" placeholder="Type your message...">
+        <button class="send-button">Send</button>
+    </div>
+    </div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
